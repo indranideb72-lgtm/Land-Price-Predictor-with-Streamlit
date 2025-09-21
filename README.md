@@ -1,6 +1,7 @@
 🏡 Land Price Predictor (Streamlit)
 
-A simple yet powerful *machine learning app* built with [Streamlit](https://streamlit.io) and [scikit-learn](https://scikit-learn.org/) to *predict land prices* in Indian cities.  
+A simple yet powerful *machine learning app* built with [Streamlit](https://streamlit.io) and [scikit-learn](https://scikit-learn.org/) to *predict land prices* in Indian cities. 
+Link to visit the site: https://land-price-predictor.streamlit.app/
 ⚠ Note: This project uses a **synthetic dataset* for demo and learning purposes only.*
 
 ---
