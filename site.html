@@ -1,0 +1,123 @@
+<!DOCTYPE html><html>
+    <head>
+        <title>Land Price Predictor</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            html,body{
+                margin:0;
+                padding: 0;
+                height:100%;
+                font-family: 'Inter', sans-serif;
+                background: linear-gradient(135deg, #0f172a, #1e293b);
+                color:#f8fafc;
+                overflow: hidden;
+            }
+            .layout{
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .main_content{
+                min-height:50vh;
+                min-width:30vw;
+                display: grid;
+                grid-template-rows: 2fr 1fr 2fr;
+                background: rgba(255,255,255,0.05);
+                border-radius: 16px;
+                box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+                padding:20px;
+                text-align:center;
+            }
+            h1,h2{
+                margin:0;
+            }
+            h1{
+                font-weight:700;
+                font-size:1.8rem;
+                color:rgb(71, 228, 40);
+            }
+            h2{
+                margin: 0;
+                font-weight:400;
+                font-size:1rem;
+                color:#cbd5e1;
+            }
+            h3{
+                color:rgb(255, 102, 0); 
+            }
+            .info{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap:5px;
+            }
+            .buttons{
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                gap:20px;
+            }
+            .site,.github{
+                height:7.5vh;
+                width:10vw;
+                border-radius: 40px;
+                border:none;
+                font-weight:600;
+                font-size:1rem;
+                color:#fff;
+                cursor:pointer;
+                transition:0.2s ease;
+                box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+            }
+            .site{
+                background: linear-gradient(135deg, #2563eb, #3b82f6);
+            }
+            .github{
+                background: linear-gradient(135deg, #111827, #1f2937);
+            }
+            .site:hover,.github:hover{
+                opacity:0.9;
+                transform: scale(1.08);
+            }
+            .site:active,.github:active{
+                opacity:0.7;
+                transform: scale(1.04);
+            }
+            img{
+                height:30vh;
+                border-radius:12px;
+                box-shadow:0 6px 18px rgba(0,0,0,0.5);
+            }
+            .image{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="layout">
+            <div class="main_content"> 
+                <div class="info">
+                    <h1>💻Demo ML Model💻</h1>
+                    <h1>Land Price Predictor</h1>
+                    <h3 style="margin:0;">Streamlit web-app</h3>
+                    <h2> Priyum Deb</h2>
+                </div>
+                <div class="buttons">
+                    <a href="https://land-price-predictor.streamlit.app/"><button class="site">Open</button></a>
+                    <a href="https://github.com/indranideb72-lgtm/Land-Price-Predictor-with-Streamlit"><button class="github"> <i class="fab fa-github"></i> Github <i class="fab fa-github"></i> </button></a>
+                </div>
+                <div class="image">
+                    <img src="img.jpg" alt="Preview">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
