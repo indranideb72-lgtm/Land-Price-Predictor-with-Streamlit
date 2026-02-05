@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestRegressor
 st.markdown("<h1 style='text-align: center;'>🏡 Land Price Predictor 🏡</h1>", unsafe_allow_html=True)
 
 st.subheader(" For selected indian cities 💰")
-st.subheader("made By Priyum Deb")
+st.subheader("Made By Priyum Deb")
 data=pd.read_csv("city_price.csv")
 
 X=data[["city","sqft"]]
@@ -39,4 +39,5 @@ if st.button("predict"):
     print("₹",Predict)
     st.success(f"Predicted Price : ₹{Predict}")
 st.caption("⚠️This is a demo model trained on limited data" \
+
 "Predictions may not reflect actual market prices⚠️")
